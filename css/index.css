@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-.btn.button-search {
+body{
+   font-family: 'PT Sans', sans-serif; 
+}
+
+
+/* .btn button-search {
    background-color: rgb(78, 38, 173)
 
     wigth: 20px;
     height: 40px;
-}
+} */
