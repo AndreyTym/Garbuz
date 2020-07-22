@@ -26,6 +26,30 @@ body{
     display: inline-block; /* Показываем меню */
    }
 
+  .header-container {
+  display: -webkit-flex;
+  display: flex;
+}
+.header-logo {
+  -webkit-flex: header-logo;
+  flex: header-logo;
+  width: 200px;
+  min-width: 100px;
+}
+.servise-order {
+  -webkit-flex: servise-order;
+          flex: servise-order;
+  width: 200px;
+}
+.order-time {
+  -webkit-flex: 1;
+          flex: 1;
+}
+/* .none {
+  -webkit-flex: 2;
+          flex: 2;
+} */
+
 .container {
   display: -webkit-flex;
   display: flex;
